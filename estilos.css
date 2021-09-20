@@ -1,0 +1,99 @@
+header {
+    background-color: #4281a4;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    width: 500px;
+    height: 65px;
+    border-radius: 10px;
+    
+}
+
+.cuerpo {
+    background-color: #e4dfda;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.descripcion {
+    width: 500px;
+    background-color: #48a9a6;
+    color: #ffffff;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#txt_descripcion {
+    text-align: justify;
+}
+#btn-registrar {
+    /* margin: 5px 200px; */
+    font-size: 14px;
+    font-weight: bold;
+    color: #4281a4;
+    background-color: #ebebeb;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: #48a9a6;
+
+}
+
+#titulo_header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    padding: 10px 15px;
+}
+
+.cuerpo2 {
+    background-color: #e4dfda;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#form-registro {
+    background-color: #48a9a6;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* text-align: center; */
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 300px; */
+}
+
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+    border-radius: 5px;
+    border-color: #e0e0e0;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#btn-submit-form {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4281a4;
+    background-color: #ebebeb;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-left: 60px;
+    border-radius: 5px;
+    border-color: #48a9a6;
+}
