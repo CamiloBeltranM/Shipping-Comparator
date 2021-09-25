@@ -12,25 +12,25 @@
         <header id="titulo_header">Registro</header>
         <br>
         <form id="form-registro">
-            <label id="nombre">Nombre</label>
+            <label for="nombre">Nombre</label>
             <br>
-            <input type="text"/>
+            <input type="text" id="nombre" placeholder="nombre"onblur="checkNombre(form.nombre.value)" required/>
             <br><br>
-            <label id="apellido">Apellido</label>
+            <label for="apellido">Apellido</label>
             <br>
-            <input type="text"/>
+            <input type="text" id="apellido" placeholder="apellido" onblur="checkApellido(form.apellido.value)" required />
             <br><br>
-            <label id="telefono">Teléfono</label>
+            <label for="telefono">Teléfono</label>
             <br>
-            <input type="number"/>
+            <input type="number" id="telefono" placeholder="telefono" onblur="checkTelefono(form.telefono.value)" required />
             <br><br>
-            <label id="Correo">Correo</label>
+            <label for="correo">Correo</label>
             <br>
-            <input type="email"/>
+            <input type="email" id="correo" placeholder="usuario@dominio.com" onblur="checkCorreo(form.correo.value)" required />
             <br><br>
-            <label id="contrasena">Contraseña</label>
+            <label for="contrasena">Contraseña</label>
             <br>
-            <input type="password"/>
+            <input type="password" id="contrasena" placeholder="contraseña" onblur="checkContrasena(form.contrasena.value)" required/>
 
             <!-- <input id="btn-submit-form" type="submit" >  -->
             <br><br>
